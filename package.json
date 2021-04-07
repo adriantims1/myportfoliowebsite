@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cd client && npm run build && cd ../ && node server",
+    "test": "echo something"
   },
   "repository": {
     "type": "git",
