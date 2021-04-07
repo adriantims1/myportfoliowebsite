@@ -5,6 +5,6 @@ const port = process.env.PORT || 3000 || 80;
 
 app.use(express.json());
 
-app.listen(80, () => {
-  console.log(`Listening on port ${port}`);
+app.listen(port, (req, res) => {
+  res.send(`Listening on port ${port}`);
 });
