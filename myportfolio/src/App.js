@@ -5,7 +5,7 @@ import Axios from "axios";
 function App() {
   Axios({
     method: "GET",
-    url: "http://adrianstudy.computer/",
+    url: "http://adrianstudy.computer",
     headers: {
       "Content-Type": "application/json",
     },
